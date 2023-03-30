@@ -1,0 +1,193 @@
+@font-face {
+	src: url('../fontes/pricedow.ttf') format('truetype');
+	font-family: gta;
+	font-weight: normal;
+}
+
+:root {
+	--fonte1: Arial, Helvetica, sans-sarif;
+	--fonte2: sarif;
+	--fonte3: gta;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: var(--fonte1);
+}
+
+header > div#img1 {
+	background-image: url('../imagens/las-vegas.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: scroll;
+	height: 100vh;
+	filter: blur(6px);
+}
+
+
+header > div#divheader1 {
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+header > div#divheader1 > h1 {
+	font-family: var(--fonte3);
+	font-size: 5em;
+	margin-bottom: 5px;
+	font-weight: normal;
+	text-shadow: 1.5px 1.5px 1.5px black;
+}
+
+header > div#divheader1 > p {
+	margin-bottom: 45px;
+	margin-top: 20px;
+	font-weight: normal;
+	text-shadow: 0.85px 0.85px 0.85px black;
+}
+
+div#jogar > a {
+	background-color: #e00066;
+	border-radius: 20px;
+	padding-left: 26px;
+	padding-right: 26px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+ div#jogar > a:hover {
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+}
+
+nav {
+	padding-top: 19px;
+	padding-bottom: 19px;
+	background-color: rgba(0,0,0,.5);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	max-width: 1100px;
+	padding-right: 78px;
+}
+
+nav img {
+	height: 20px;
+	width: 20px;
+	margin-bottom: -3px;
+	margin-left: 20px;
+	margin-right: 2px;
+}
+
+nav #especialimg {
+	margin-left: 30px;
+	margin-right: 100px;
+}
+
+nav > #imagemspecial2 {
+	width: 30px;
+	height: 30px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+nav #especialimg:hover {
+	text-decoration: underline;
+}
+
+nav a:hover {
+	color: darkgray;
+}
+
+/*header a cima*/
+
+main {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+main h2 {
+	margin-top: 25px;
+	margin-bottom: 10px;
+	font-weight: bolder;
+	font-size: 32px;
+	color: #1f3251;
+}
+
+main p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: justify;
+	line-height: 1.5em;
+	font-size: 15px;
+	color: #1f3251;
+}
+
+main img.imgmain {
+	width: 35px;
+	height: 35px;
+	margin-bottom: -6px;
+	margin-right: 10px;
+}
+
+main img.imgsec {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+main div#imagemmorte {
+	background-image: url('../imagens/stt.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: scroll;
+	width: 950px;
+	height: 600px;
+}
+
+main ul {
+	list-style-position: inside;
+	color: #1f3251;
+}
+
+/*main a cima*/
+
+footer {
+	background-color: #232629;
+	padding: 20px;
+	padding-bottom: 10px;
+}
+
+footer p {
+}
+
+footer p#pespecial {
+	text-align: center;
+	font-size: 1.2em;
+	color: gray;
+}
+
+footer a {
+	color: gray;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+	color: darkgray;
+}
