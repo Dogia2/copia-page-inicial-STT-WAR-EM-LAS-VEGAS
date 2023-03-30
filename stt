@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport"
+	content="width=device=width, initial-scale=1.
+	0">
+	<title>Início - War em Las Vgeas</title>
+	<link href="css/css1.css" rel="stylesheet">
+	<link href="imagens/icone.ico" rel="shotcut icon" type="image/icon">
+</head>
+<body>
+	<header>
+		<div id="img1">
+		</div>
+		<nav>
+			<a href="" rel="next" target="_self" id="especialimg">STT - War em Las Vegas</a>
+			<a href="https://sttserver.net" rel="next" target="_self"><img src="imagens/casa.png">Início</a>
+			<a href="https://sttserver.net/loja" rel="next" target="_self"><img src="imagens/carro2.png">Loja</a>
+			<a href="https://sttserver.net/mapa" rel="next" target="_self"><img src="imagens/mapa.png">Mapa</a>
+			<a href="https://sttserver.net/admins" rel="next" target="_self"><img src="imagens/escudo.png">Admins</a>
+			<a href="https://sttserver.net/forum" rel="next" target="_self"><img id="imagemespecial2" src="imagens/forum.png">Fórum</a>
+			<a href="https://discord.com/invite/u4Fwt9s" rel="external" target="_blank"><img src="imagens/discord.png">Discord</a>
+			<a href="https://sttserver.net/ucp/login" rel="next" target="_self"><img src="imagens/ucp.png">UCP</a>
+		</nav>
+		<div id="divheader1">
+			<h1>WAR EM<br> LAS VEGAS</h1>
+			<p>O MELHOR SERVIDOR DE MINIGAMES DO BRASIL!</p>
+			<div id="jogar">
+				<a href="#" rel="" target="">Jogar</a>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section>
+			<h2><img class="imgmain" src="imagens/casa2.png">Bem-vindo!</h1>
+			<hr>
+			<p>Bem-vindo ao site oficial do servidor War em Las Vegas de SA-MP. Proporcionamos uma experiência completa com minigames exclusivos junto de vários sistemas e comandos que possibilitam um alto nível de personalização em personagens, veículos e até mesmo casas. Estamos desde 2012 aprimorando sua jogabilidade, sendo, atualmente, os únicos a implementar com sucesso reais inovações ao 4FUN/mata-mata brasileiro. Esperamos que você venha fazer parte da nossa comunidade!</p>
+			<h2><img class="imgmain" src="imagens/fotografia.png">Imagens</h2>
+			<hr>
+			<p>Conheça melhor o servidor vendo algumas imagens dos modos de jogo e dos sistemas principais.</p>
+			<div id="imagemmorte">
+			</div>
+			<h2><img class="imgmain" src="imagens/wifi.png">Conectar</h2>
+			<hr>
+			<p>Adicione o servidor aos favoritos e comece a jogar!</p>
+			<ul>
+				<li>IP: ip.sttserver.net:7777</li>
+				<li>IP numérico: 158.69.121.68:7777</li>
+			</ul>
+			<img class="imgsec" src="imagens/estat.png">
+		</section>
+	</main>
+	<footer>
+		<p>Contato: <a href="#" rel="external" target="_blank">sttsamp@gmail.com</a></p>
+		<p>Comunidade: <a href="https://discord.com/invite/u4Fwt9s" rel="external" target="_blank">Discord</a></p>
+		<p> Redes sociais: <a href="#" rel="external" target="_blank">Facebook</a></p>
+		<p id="pespecial">War em Las Vegas - STT © 2012-2023</p>
+	</footer>
+</body>
+</html>
